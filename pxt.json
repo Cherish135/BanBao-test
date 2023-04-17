@@ -1,15 +1,15 @@
 {
     "name": "banbao-test",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
     },
     "files": [
         "README.md",
-        "main.blocks",
         "main.ts"
     ],
     "testFiles": [
@@ -23,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
